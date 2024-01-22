@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 const io = require('socket.io')(4567, {
     cors: {
-        origin: ["http://localhost:3000"],
+        origin: ["https://8tambola.netlify.app/"],
     }
 })
 const ids = new Set();
